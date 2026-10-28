@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grzegorz Mobil-Mechanik | Biała Podlaska</title>
+  <meta name="description" content="Mobilna mechanika, diagnostyka, autodetailing, serwis klimatyzacji i transport pojazdów na lawecie ciąganej. Biała Podlaska i okolice.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      line-height: 1.6;
+    }
+    header {
+      background: #e71920;
+      text-align: center;
+      padding: 28px 15px;
+      border-bottom: 5px solid white;
+    }
+    header h1 { margin: 0; font-size: clamp(27px, 6vw, 44px); }
+    header p { margin: 8px 0 0; font-weight: bold; }
+    .call {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 13px 24px;
+      background: white;
+      color: #d71920;
+      border-radius: 8px;
+      font-size: 23px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    main { max-width: 1000px; margin: auto; padding: 20px; }
+    .poster {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 3px solid #e71920;
+      border-radius: 10px;
+    }
+    h2 { color: #ff3038; text-align: center; }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+    }
+    .service {
+      background: #222;
+      border: 1px solid #444;
+      border-left: 5px solid #e71920;
+      border-radius: 8px;
+      padding: 16px;
+    }
+    .service h3 { margin: 0 0 6px; color: white; }
+    .service p { margin: 0; color: #ddd; }
+    .contact {
+      margin-top: 25px;
+      background: #e71920;
+      padding: 24px 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .contact a {
+      color: white;
+      font-size: clamp(25px, 6vw, 36px);
+      font-weight: bold;
+      text-decoration: none;
+    }
+    footer { text-align: center; padding: 20px; color: #bbb; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GRZEGORZ MOBIL-MECHANIK</h1>
+    <p>AWARIA? DZWONISZ – JADĘ!</p>
+    <p>Biała Podlaska i okolice • Dojazd do klienta</p>
+    <a class="call" href="tel:885188058">☎ 885 188 058</a>
+  </header>
+
+  <main>
+    <h2>Twoje auto w dobrych rękach!</h2>
+
+    <img class="poster" src="plakat.png"
+         alt="Kolorowa reklama Grzegorz Mobil-Mechanik"
+         onerror="this.style.display='none'">
+
+    <h2>Nasze usługi</h2>
+    <section class="services">
+      <article class="service">
+        <h3>🔧 Mobilna mechanika</h3>
+        <p>Naprawy samochodów na miejscu awarii lub pod wskazanym adresem.</p>
+      </article>
+      <article class="service">
+        <h3>💻 Diagnostyka komputerowa</h3>
+        <p>Odczyt i sprawdzanie błędów samochodowych.</p>
+      </article>
+      <article class="service">
+        <h3>🔋 Awaryjny rozruch</h3>
+        <p>Pomoc przy rozładowanym akumulatorze i problemach z uruchomieniem.</p>
+      </article>
+      <article class="service">
+        <h3>⚙️ Wymiana części</h3>
+        <p>Pomoc w naprawach i wymianie części samochodowych.</p>
+      </article>
+      <article class="service">
+        <h3>✨ Autodetailing</h3>
+        <p>Czyszczenie i pielęgnacja wnętrza samochodu.</p>
+      </article>
+      <article class="service">
+        <h3>❄️ Serwis klimatyzacji</h3>
+        <p>Obsługa i diagnostyka klimatyzacji w zakresie posiadanych uprawnień.</p>
+      </article>
+      <article class="service">
+        <h3>🚗 Transport na lawecie ciąganej</h3>
+        <p>Transport pojazdów na przyczepie-lawetcie. Szczegóły ustalane telefonicznie.</p>
+      </article>
+    </section>
+
+    <section class="contact">
+      <h2 style="color:white">Potrzebujesz pomocy?</h2>
+      <p>Zadzwoń — ustalimy dojazd i zakres usługi.</p>
+      <a href="tel:885188058">☎ 885 188 058</a>
+      <p>Biała Podlaska i okolice</p>
+    </section>
+  </main>
+
+  <footer>Grzegorz Mobil-Mechanik • AWARIA? DZWONISZ – JADĘ!</footer>
+</body>
+</html>
